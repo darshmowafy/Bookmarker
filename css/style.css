@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f0e5; /* Light peach/beige background */
+    background-color: #f8f0e5;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -29,31 +29,31 @@ body {
     left: 0;
     width: 100%;
     height: 15px;
-    background-color: #f5b041; /* Underline color */
+    background-color: #f5b041;
     z-index: -1;
     border-radius: 3px;
 }
 
 .section-divider {
-    border-bottom: 2px dashed #d0c0b0; /* Dashed line */
+    border-bottom: 2px dashed #d0c0b0;
     margin: 30px 0;
 }
 
 .section-subtitle {
     font-size: 1.5em;
-    color: #4a6b20; /* Dark green */
+    color: #4a6b20;
     margin-bottom: 25px;
 }
 
 .section-subtitle .fas {
-    color: #f5b041; /* Orange for bookmarks icon */
+    color: #f5b041;
     margin: 0 8px;
 }
 
 .form-group {
     text-align: left;
     margin-bottom: 20px;
-    position: relative; /* For positioning validation icons */
+    position: relative;
 }
 
 .form-group label {
@@ -80,15 +80,15 @@ body {
      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
-/* Input validation styles */
+
 .form-control.is-valid {
-    border-color: #28a745; /* Green border for valid */
-    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); /* Green focus */
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); 
 }
 
 .form-control.is-invalid {
-    border-color: #dc3545; /* Red border for invalid */
-    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); /* Red focus */
+    border-color: #dc3545; 
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
 .validation-icon {
@@ -98,22 +98,22 @@ body {
     bottom: 50%;
     transform: translate(-50%,-50%);
     font-size: 1.2em;
-    pointer-events: none; /* So it doesn't interfere with input clicks */
+    pointer-events: none;
 }
 
 .validation-icon .fa-check-circle {
-    color: #28a745; /* Green check */
+    color: #28a745;
 
 }
 
 .validation-icon .fa-times-circle {
-    color: #dc3545; /* Red times */
+    color: #dc3545;
 
 }
 
 
 .btn-submit {
-    background-color: #e07b39; /* Orange-red button */
+    background-color: #e07b39;
     color: white;
     padding: 12px 30px;
     border: none;
@@ -150,7 +150,7 @@ body {
 
 
 .bookmarks-table .btn-visit {
-    background-color: #5bc0de; /* Blue for visit button */
+    background-color: #5bc0de
     color: white;
     padding: 8px 12px;
     border: none;
@@ -166,7 +166,7 @@ body {
 }
 
 .bookmarks-table .btn-delete {
-    background-color: #dc3545; /* Red for delete button */
+    background-color: #dc3545;
     color: white;
     padding: 8px 12px;
     border: none;
@@ -174,12 +174,9 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 .bookmarks-table .btn-delete:hover {
     background-color: #c82333;
 }
-
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .container {
         padding: 20px 30px;
